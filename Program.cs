@@ -6,13 +6,13 @@ namespace test2
     {
         static void Main(string[] args)
         {
-            String message = BuildMessage();
+            String message = BuildMessage("World");
             Console.WriteLine(message);
         }
 
-        static String BuildMessage() 
+        static String BuildMessage(String name) 
         {
-            return "ss";
+            return "Hello " + name + "!";
         }
     }
 }
